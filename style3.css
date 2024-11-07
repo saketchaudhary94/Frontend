@@ -1,0 +1,39 @@
+h1,
+h3{
+    color : red;
+}
+#login{
+    background-color : white;
+}
+.a{
+    color : white;
+    background-color : black;
+}
+nav a{
+    color : purple;
+}
+p + h3{
+    text-decoration : underline;
+}
+div > input{
+    background-color : darksalmon;
+}
+button:hover{
+    background-color: red;
+    color : white;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color:green;
+}
+h1::first-letter{
+    color:green;
+}
+p::first-line{
+    color:violet;
+}
+p::selection{
+    color:yellow;
+}

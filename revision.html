@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>forms in HTML</title>
+    </head>
+  <body>
+    <form action = "/server"> 
+      <div>
+        <label for = "test"> username</label>
+      <input type = "text" placeholder = "username" id = "test" name = "user">
+      </div>
+      <div>
+        <label for = "testing"> Password</label>
+        <input type = "password" placeholder = "password" id = "testing" name = "pass">
+      </div>
+      <div>
+        <label for = "age" >I am 18+</label>
+        <input type = "checkbox" id = "age" name = "age" >
+      </div>
+      <div>
+        <label for = "apple">apple</label>
+        <input type = "radio" name = "fruit" id = "apple" value = "apple">
+        <label for = "mango">mango</label>
+        <input type = "radio" name = "fruit" id = "mango" value = "mango" >
+        <label for = "banana">banana</label>
+        <input type = "radio" name = "fruit" id = "banana" value = "banana" >
+
+      </div>
+      <div>
+        choose your profession 
+        <select name = "profession" id = "profession" >
+          <option>select</option>
+          <option value = "stu">student</option>
+          <option value = "dev">developer</option>
+        </select>
+      </div>
+      <div>
+        <label for = "vol">select volume</label>
+        <input type = "range" id = "vol" min = "0" max = "100" name = "vol" step = "10">
+      </div> 
+      <div>
+        <label for = "feedback" >give your feedback here</label>
+        <textarea id = "feedback" name = "feedback" placeholder = "write here "></textarea>
+      </div>
+
+      <button >Login</button>
+    </form>
+  </body>
+</html>
